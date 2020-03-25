@@ -8,7 +8,7 @@ const port = process.env.PORT || 4002
 const server = http.createServer((req, res) => {
   res.statusCode = 200
   res.setHeader('Content-Type', 'text/plain')
-  res.end('Hi everyone, I am Vikas Baswapuram.)\n')
+  res.end('Hi everyone, I am Vikas Baswapuram.\n')
 })
 
 // start listening
